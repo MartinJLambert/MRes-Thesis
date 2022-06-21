@@ -1,0 +1,6 @@
+1. Measure LUX with Arduino
+2. Measure PAR with PAR meter periodically
+3. Corellate LUX with PAR to make a curve
+4. Extrapolate
+
+This is only good for 'each individual glasshouse'. It is not a universal conversion.

@@ -1,0 +1,55 @@
+% preamble
+\documentclass[12pt, british]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, margin = 2cm]{geometry}
+\usepackage{libertinus}
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage[sectionbib, globalcitecopy]{bibunits}
+  \defaultbibliography{ref/ref}
+  \defaultbibliographystyle{plain}
+\usepackage{graphicx}
+\usepackage{float}
+
+% metadata
+\title{Effect of harvesting regimes on the morphology and physiological processes of \textit{Azolla filiculoides}}
+\author{Martin J Lambert}
+\date{November 17, 2022}
+
+% custom coding
+\renewcommand{\bibname}{References} % change "Bibliography" to "References"
+\makeatletter % allow repeated footnotes via labelling
+  \newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
+
+%%% --------------------------------- %%%
+% begin document
+\begin{document}
+\bibliographyunit[\chapter] % allows references per chapter
+
+
+\include{tex/title.tex}
+
+\include{tex/dedication.tex}
+
+\pagenumbering{roman}
+\include{tex/declaration.tex}
+\include{tex/acknowledgements.tex}
+\include{tex/thesis_abstract.tex}
+
+\include{tex/toc.tex}
+
+\pagenumbering{arabic}
+\include{tex/ch_1_literature_review.tex}
+
+\include{tex/ch_2_methods.tex}
+
+\include{tex/ch_3_results.tex}
+
+\include{tex/ch_4_discussion.tex}
+
+\include{tex/appendix.tex}
+
+\include{tex/thesis_refs.tex}
+
+\end{document}

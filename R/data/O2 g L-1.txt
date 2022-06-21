@@ -1,0 +1,18 @@
+https://www.ictinternational.com/casestudies/understanding-oxygen-in-air/
+
+~ 20.95% O2 in air
+
+O2 = 32g/mole
+32g * 0.2095 = 6.704 g L^-1 (6.704 g O2 per L air)
+
+24 tubs @ 4L each = 24 * 4 L h^-1 = 96
+6.704 * 96 = 643.584 g L^-1 h^-1
+
+
+3566 GPH = 13,498.7784217 LPH ~ 13,500 LPH
+
+13,500 / 24 = 562.5 L per tub per hour
+
+562.5 L * 6.704 g O2 = 3,771g O2 per tub ~ 942.75 g O2 per L
+
+
